@@ -1,6 +1,6 @@
-var hari = 28; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-var bulan = 12; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-var tahun = 1992; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+var hari = 1; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+var bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+var tahun = 1800; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 switch(bulan){
     case 1:
         bulan = "Januari";
@@ -39,10 +39,11 @@ switch(bulan){
         bulan = "Desember";
         break;
     default:
+        console.log("Bulan tidak sesuai")
         break;
 }
 
-if(hari <= 1 || hari >= 31 || bulan <= 1 && bulan >= 12|| tahun <= 1900 || tahun >= 2200  ){
+if(hari < 1 || hari > 31 || bulan < 1 && bulan > 12|| tahun < 1900 || tahun > 2200  ){
     console.log("Tanggal tidak sesuai")
 } else {
     tanggal = hari + " " + bulan + " " + tahun;
