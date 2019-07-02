@@ -1,19 +1,19 @@
 //Tugas 1
-// function shoutOut(){
-//     console.log("Halo Function!");
-// }
+function shoutOut(){
+    console.log("Halo Function!");
+}
 
 // console.log(shoutOut());
 
 //Tugas 2
-// var num1 = 5;
-// var num2 = 6;
-// function calculateMultiply(num1, num2){
-//     return num1*num2;
-// }
+var num1 = 5;
+var num2 = 6;
+function calculateMultiply(num1, num2){
+    return num1*num2;
+}
 
-// var hasilPerkalian = calculateMultiply(num1, num2);
-// console.log(hasilPerkalian);
+var hasilPerkalian = calculateMultiply(num1, num2);
+console.log(hasilPerkalian);
 
 //Tugas 3
 var name = "Agus";
