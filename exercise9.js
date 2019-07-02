@@ -1,9 +1,10 @@
 //Tugas 1
 function shoutOut(){
-    console.log("Halo Function!");
+    return "Halo Function!";
 }
 
-// console.log(shoutOut());
+console.log(shoutOut());
+// shoutOut();
 
 //Tugas 2
 var num1 = 5;
@@ -22,8 +23,8 @@ var address = "Jln. Malioboro, Yogyakarta";
 var hobby = "gaming";
 
 function processSentence(name, age, address, hobby){
-    console.log("Nama saya " + name + ", umur saya " + age + " tahun, alamat saya di " +
-    address + ", saya punya hobby yaitu " + hobby + "!");
+    return "Nama saya " + name + ", umur saya " + age + " tahun, alamat saya di " +
+    address + ", saya punya hobby yaitu " + hobby + "!";
 }
 
 var fullSentence = processSentence(name,age,address,hobby);
